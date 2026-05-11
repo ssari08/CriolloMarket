@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título -->
+        <TextView
+            android:text="CRIOLLO MARKET"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"/>
+
+        <!-- Login -->
+        <EditText
+            android:hint="Usuario"
+            android:background="#FFFFFF"
+            android:padding="10dp"/>
+
+        <Button
+            android:text="Entrar como Administrador"
+            android:backgroundTint="#FF6F00"/>
+
+        <Button
+            android:text="Entrar como Vendedor"
+            android:backgroundTint="#4CAF50"/>
+
+        <Button
+            android:text="Entrar como Comprador"
+            android:backgroundTint="#2196F3"/>
+
+        <!-- Catálogo -->
+        <TextView
+            android:text="Catálogo"
+            android:textSize="22sp"
+            android:paddingTop="20dp"/>
+
+        <TextView android:text="Café Premium - $20.000"/>
+        <TextView android:text="Miel Natural - $15.000"/>
+        <TextView android:text="Pan Artesanal - $8.000"/>
+
+        <!-- Carrito -->
+        <Button
+            android:text="Ver Carrito"/>
+
+        <Button
+            android:text="Ir a Pago"
+            android:backgroundTint="#1B5E20"/>
+
+        <!-- Perfil -->
+        <TextView
+            android:text="Perfil Usuario"
+            android:textSize="20sp"
+            android:paddingTop="20dp"/>
+
+        <TextView android:text="Nombre: Juan"/>
+        <TextView android:text="Rol: Comprador"/>
+
+    </LinearLayout>
+
+</ScrollView>
